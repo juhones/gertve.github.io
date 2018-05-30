@@ -1,0 +1,323 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ html, body, span, applet, object, iframe,
+ blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color:transparent;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+ body.home:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../images/bg1.jpg) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+ body.troue:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../images/bg.jpg) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+ body.geskenk:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../images/bg-geskenk.jpg) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+ body.verblyf:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../images/bg-verblyf.jpg) center right;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+ body.rsvp:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../images/bg-rsvp.jpg) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url(../images/bg1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.full-grootdag {
+    background: url(../images/bg-grootdag.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.full-verblyf {
+    background: url(../images/bg-verblyf.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.full-geskenk {
+    background: url(../images/bg-geskenk.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.full-rsvp {
+    background: url(../images/bg-rsvp.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-attachment:fixed;
+}
+p {color: #fff;font-family: 'Raleway', sans-serif; letter-spacing: 1px;}
+h1 {color:#fff;font-family: 'Playfair Display', serif;font-size:50px; letter-spacing: 2px;}
+
+h2 {color:#fff;font-family: 'Playfair Display', serif;font-size:42px; letter-spacing: 2px;}
+h3 {color:#fff;font-family: 'Raleway', sans-serif; font-size:30px; letter-spacing: 0.5px;}
+h4 {color:#fff;font-family: 'Raleway', cursive;font-size:26px; letter-spacing: 0.5px; line-height: 32px;}
+a {color:#e2b0ab;}
+a:hover, a:focus {text-decoration:none; color: #fff;}
+p a {border: 1px solid transparent;}
+p a:hover {border: 1px solid #fff; transition: all 1.5s;}
+
+.terug {
+	display: none;
+}
+
+h2.terug a {
+	border: 1px solid #fff;
+	padding: 15px 30px;
+	display: inline;
+	font-size: 20px;
+	color: #fff;
+}
+h2.terug a:hover {
+	color: #fff;
+}
+
+img {max-width:100%;}
+ul {color: #fff;}
+ul li {padding: 5px 0;}
+.row{margin:0 auto;}
+
+.nav-links, .nav-links2 {
+	color:#e2b0ab;
+	font-family: 'Playfair Display', serif;
+	font-size:30px; 
+	text-align: left; 
+	margin-top: 1%; 
+	border-left: 1px solid #fff;
+	padding-left: 30px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	position:fixed;
+}
+.nav-links a, .nav-links2 a {color:#fff;}
+.nav-links a:hover {color:#fff; padding-left: 8px;}
+.nav-links a, .nav-links2 a {transition: all 0.5s;}
+
+.nav-links2 {
+	text-align: right;
+	border-right: 1px solid #fff;
+	padding-right: 30px;
+	border-left: none;
+	right: 20%;
+}
+.nav-links2 a:hover {padding-right: 8px;}
+
+.nopadding { margin:0 auto;padding:0;}
+.nopadding .col-lg-4 { margin:0 auto;padding:0;}
+.white-text {color: #fff;}
+h3.white {color: #fff;font-size:17px; font-weight: 300; line-height: 22px;}
+.blue {background-color:rgba(0,0,0,0.3);
+	padding:10px;
+	display:inline-block;
+	margin-bottom:10px;
+	color:#fff;
+	}
+
+.quote {
+	color: #e2b0ab;
+	font-size: 18px;
+	padding: 15px;
+}
+
+
+#list .thumbs .btn {
+    height: 22px;
+    margin: 1px -1px;
+    width: 22px;
+}
+
+
+
+.form-control {
+	border: 1px solid #fff;
+	border-radius:0px;
+	background-color:rgba(0,0,0,0.3);
+	color:#fff;
+}
+
+label {
+	color:#fff;
+	font-weight: normal;
+    font-size: 16px;}
+
+.pb100 {
+	padding-bottom: 100px;
+}
+
+.btn {
+	border: none !important;
+	background-color: rgba(255,255,255,1);
+	padding: 10px 15px;
+	border-radius: 0px;
+}
+
+.btn:hover {
+	background-color: rgba(255,255,255,0.5);
+	transition: all 1s;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #fff;
+    border-color: #fff;
+	border-radius: 0px;
+}
+
+.alert-warning {
+    color: #96181A;
+    background-color: #fff;
+    border-color: #fff;
+	border-radius: 0px;
+}
+
+/* -------------------------------- 
+
+Typography
+
+-------------------------------- */
+
+@media only screen and (max-width: 1440px) {
+	.nav-links2 {right: 10%;}
+}
+
+@media only screen and (max-width: 991px) {
+	.terug {display: inherit;}
+	.nav-links2 {display: none;}
+}
+
+@media only screen and (max-width: 480px) {
+  .full-rsvp {
+	  background-attachment: scroll;
+  }
+	h1 {font-size: 32px; padding: 5px 5px;}
+	h2 {font-size: 30px;}
+	.nav-links {font-size: 22px;}
+}
+
+@media only screen and (max-width: 363px) {
+  .full-rsvp {
+	  background-attachment: scroll;
+  }
+	h1 {font-size: 31px; padding: 5px 5px; margin-left: -10px}
+	h2 {font-size: 28px;}
+	.nav-links {font-size: 20px; margin-top: 10%;}
+}
+
+
+
+/* Google map
+-------------------------*/
+.google-maps {
+        position: relative;
+        padding-bottom: 45%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+		border: #fff 3px solid;
+    }
